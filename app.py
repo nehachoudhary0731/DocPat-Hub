@@ -4,7 +4,7 @@ from werkzeug.utils import secure_filename
 import sqlite3
 # Flask app  setup
 app = Flask(__name__)
-app.secret_key = 'neha_secret_key'  
+app.secret_key = 'setup_your_secret_key'  
 
 UPLOAD_FOLDER = 'static/uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -123,4 +123,5 @@ def logout():
 if __name__ == '__main__':
     if not os.path.exists('static/uploads'):
         os.makedirs('static/uploads')  
+
     app.run(debug=True)

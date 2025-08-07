@@ -15,7 +15,7 @@ authentication, and simple role-based dashboard views.
 
 # Tech Stack
 
-- Frontend: HTML, CSS (via Jinja2 templates)
+- Frontend: HTML, CSS ( Jinja2 )
 - Backend: Python with Flask
 - Database: SQLite3
 
